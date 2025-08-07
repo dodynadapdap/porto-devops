@@ -1,7 +1,7 @@
 # porto-devops
 
 
-## File & Folder Management
+## 1.File & Folder Management
 ```
 mkdir belajar_shell
 cd belajar_shell
@@ -38,7 +38,10 @@ rm -r folder_tujuan                  # hapus folder (ketika ada isi folder)
 <img width="737" height="57" alt="image" src="https://github.com/user-attachments/assets/aa7df976-258d-4516-ab91-b88088439275" />
 
 
-## Permission, User & Group
+
+
+
+## 2.Permission, User & Group
 ```
 touch script.sh                           # create file
 echo "#!/bin/bash" > script.sh            # mengisi text pada file (>) menimpa
@@ -69,7 +72,9 @@ whoami
 
 
 
-## Pengelolaan File Lanjut
+
+
+## 3.Pengelolaan File Lanjut
 ```
 # Membuat file teks dummy
 echo "Ini adalah baris pertama" > dummy.txt
@@ -78,8 +83,6 @@ echo "Shell scripting itu menyenangkan" >> dummy.txt
 echo "Linux adalah sistem operasi yang powerful" >> dummy.txt
 ```
 <img width="860" height="360" alt="image" src="https://github.com/user-attachments/assets/6a8a81a3-5557-4880-a7c3-a215d9d1f56f" />
-
-
 ```
 # Menggunakan perintah untuk melihat isi file
 cat dummy.txt
@@ -89,20 +92,21 @@ less dummy.txt          # melihat isi file dengan navigasi
 ```
 <img width="868" height="198" alt="image" src="https://github.com/user-attachments/assets/a977543e-0de9-43f7-86b8-9db81c8c7485" />
 <img width="857" height="125" alt="image" src="https://github.com/user-attachments/assets/e3bd3952-b769-41c7-bf4e-72f56842488f" />
-
 ```
 # Mencari kata dengan grep
 grep "Shell" dummy.txt
 ```
 <img width="856" height="52" alt="image" src="https://github.com/user-attachments/assets/94354560-7160-4be3-87e4-7524e21996c4" />
-
 ```
 # Mencari file dengan find
 find ~ -name "*.txt"    # mencari semua file .txt di home directory
 ```
 
 
-##  Proses dan Sistem
+
+
+
+##  4.Proses dan Sistem
 ```
 # Memantau proses
 ps aux                  # melihat semua proses
@@ -117,7 +121,6 @@ sudo apt install htop
 htop                    # versi lebih baik dari top
 ```
 <img width="1845" height="972" alt="image" src="https://github.com/user-attachments/assets/99ea97c8-dcde-41a5-bc16-fb02c621aaf1" />
-
 ```
 # Membuat dan menghentikan proses
 sleep 100 &             # menjalankan sleep di background
@@ -131,7 +134,10 @@ crontab -e              # edit jadwal cron
 ```
 
 
-## Variable, Alias, & Custom Terminal
+
+
+
+## 5.Variable, Alias, & Custom Terminal
 ```
 # Mengecek variabel lingkungan
 echo $HOME
@@ -161,7 +167,10 @@ source ~/.bashrc
 <img width="856" height="43" alt="image" src="https://github.com/user-attachments/assets/24679382-b3f7-4a34-838f-b90572c83df5" />
 
 
-## Shell Scripting Dasar
+
+
+
+## 6.Shell Scripting Dasar
 1. Buat file sambutan.sh
    ```
    #!/bin/bash
