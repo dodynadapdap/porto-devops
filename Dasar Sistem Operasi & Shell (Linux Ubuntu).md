@@ -1,6 +1,3 @@
-# porto-devops
-
-
 ## 1.File & Folder Management
 ```
 mkdir belajar_shell
