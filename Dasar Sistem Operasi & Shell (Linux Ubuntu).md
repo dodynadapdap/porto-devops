@@ -1,3 +1,9 @@
+🎯 Tujuan Akhir
+- Menguasai perintah dasar terminal
+- Memahami struktur direktori Linux
+- Bisa menulis skrip shell sederhana
+-Mengelola proses dan file dengan CLI
+
 ## 1.File & Folder Management
 ```
 mkdir belajar_shell
